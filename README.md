@@ -86,7 +86,7 @@ If you want to have membercounter enabled go into events/members/membercount.js 
 #### 🧬・Admin
 The only Admin command right now is that you can make the bot dm someone a message of choice
 
-
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 |🌟Star This Repository If You Liked GenBot!|
 |-------------------------------------------|
 
