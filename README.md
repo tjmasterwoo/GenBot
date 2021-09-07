@@ -8,7 +8,7 @@ Love ❌
 code ✅
 
 ## 🎭・GenBot
-> Made this bot for my server [CheatAway](https://rdimo.github.io/CheatAway) to generate account simply by just typing a command like !netflix 
+> Made this bot for my server [CheatAway](https://rdimo.github.io/CheatAway) to generate account simply by just typing a command like !netflix                             
 > It also has a nitro generator, admin command, twitch follow commands, member counter + more other commands like !help and !help [command]
 
 ### 🔖・Requirements
