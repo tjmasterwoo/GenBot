@@ -86,8 +86,8 @@ If you want to have membercounter enabled go into events/members/membercount.js 
 #### 🧬・Admin
 The only Admin command right now is that you can make the bot dm someone a message of choice
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-|🌟Star This Repository If You Liked GenBot!|
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+|🌟Star This Repository If You Liked GenBot!| 
 |-------------------------------------------|
 
 <a href="https://rdimo.github.io/CheatAway/" target="_blank"><img src="https://discordapp.com/api/guilds/864857288584724500/widget.png?style=banner2" alt="Cheataway"/></a>
