@@ -1,0 +1,7 @@
+{
+  "name": "Account Generator Discord bot",
+  "description": "An Account Generator Discord bot built with discord.js",
+  "repository": "https://github.com/Rdimo/Account-Generator-Discord-bot",
+  "logo": "https://i.imgur.com/cpjB0Ae.png",
+  "keywords": ["discord", "discordjs", "account-generator", "bot"]
+}
