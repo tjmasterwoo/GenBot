@@ -37,6 +37,11 @@ Token: {
     Discord: 'Your_discord_bot_token',
 },
 ```
+after that is done you need to allow intents for the bot to work which is done by going to [discord portal](https://ptb.discord.com/developers/)
+enable these 2 options:
+
+ <img alt="HazardNuker" src="https://cdn.discordapp.com/attachments/828047793619861557/888421741590884372/Screenshot_2021-09-17_154808.png">
+
 When your done you can do `node index.js` to start the bot.
 
 ## 🔰・Features
