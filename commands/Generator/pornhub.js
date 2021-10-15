@@ -45,7 +45,7 @@ module.exports.run = async (client, message, args) => {
             .setTitle("Account Generated!")
             .setDescription(`${client.config.emojis.success}Check your dm for the account's information!`)
             .setColor(client.config.colors.Green)
-            .setFooter(`Join CheatAway Here | ${client.config.LINKS.website} | https://github.com/Rdimo/GenBot`,`${client.user.displayAvatarURL()}`)
+            .setFooter(`Join CheatAway Here | ${client.config.links.website} | https://github.com/Rdimo/GenBot`,`${client.user.displayAvatarURL()}`)
             .setTimestamp();
 
             message.channel.send(genembed)
