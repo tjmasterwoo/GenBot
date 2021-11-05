@@ -40,7 +40,7 @@ Token: {
 after that is done you need to allow intents for the bot to work which is done by going to [discord portal](https://ptb.discord.com/developers/)
 enable these 2 options:
 
- <img alt="HazardNuker" src="https://cdn.discordapp.com/attachments/828047793619861557/888421741590884372/Screenshot_2021-09-17_154808.png">
+ <img alt="intents" src="https://cdn.discordapp.com/attachments/828047793619861557/888421741590884372/Screenshot_2021-09-17_154808.png">
 
 When your done you can do `node index.js` to start the bot.
 
@@ -57,12 +57,6 @@ module.exports.help = {
   cooldown: 7, //cooldown of the command
   usage: '[command_name]', //usage example of command
   example: ["help", "help ping"], //example on how to use command
-  isUserAdmin: false, //if they need to be admin to use
-  moderator: false, //if they need to be moderator
-  args: false, //if the command should have any args
-  userPermissions: [], //the permission the user needs to have in order to use the command
-  botPermissions: [], //the permission the bot needs to have in order for the commands to work properly
-  subcommands: [] // help for subcommands in case you want to use
 };
 ```
 

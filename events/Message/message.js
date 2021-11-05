@@ -17,6 +17,7 @@ if (!message.content.startsWith(client.config.PREFIX)) return;
       })
   
       if (listed === true) return message.channel.sendErrorMessage(`You are blacklisted from ${client.user.username}`)
+      
 //---------------COOLDOWN---------------
 if (!client.cooldowns.has(command.help.name)) {
     client.cooldowns.set(command.help.name, new Collection());

@@ -14,10 +14,4 @@ module.exports.help = {
     cooldown: 300,
     usage: '',
     example: ["raid pewdiepie"],
-    isUserAdmin: false,
-    moderator: false,
-    args: false,
-    userPermissions: [],
-    botPermissions: [],
-    subcommands: []
 };

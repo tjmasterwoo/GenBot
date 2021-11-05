@@ -62,10 +62,4 @@ module.exports.help = {
     cooldown: 900,
     usage: '',
     example: [],
-    isUserAdmin: false,
-    moderator: false,
-    args: false,
-    userPermissions: [],
-    botPermissions: [],
-    subcommands: []
 };

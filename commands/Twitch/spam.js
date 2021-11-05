@@ -6,19 +6,14 @@ module.exports.run = async (client, message, args) => {
             .setDescription('Still work in progress')
         )
     }
-    module.exports.help = {
-        name: "spam",
-        aliases: ['spam', 'twitch-spam'],
-        category: 'twitch',
-        description: "Spam a selected message in a twitch streamers chat!",
-        cooldown: 300,
-        usage: '',
-        example: ["raid pewdiepie"],
-        isUserAdmin: false,
-        moderator: false,
-        args: false,
-        userPermissions: [],
-        botPermissions: [],
-        subcommands: []
-    };
+    
+module.exports.help = {
+    name: "spam",
+    aliases: ['spam', 'twitch-spam'],
+    category: 'twitch',
+    description: "Spam a selected message in a twitch streamers chat!",
+    cooldown: 300,
+    usage: '',
+    example: ["raid pewdiepie"],
+};
     

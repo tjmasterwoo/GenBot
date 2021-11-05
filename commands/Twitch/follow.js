@@ -198,10 +198,4 @@ module.exports.help = {
     cooldown: 300,
     usage: '',
     example: ["follow pewdiepie"],
-    isUserAdmin: false,
-    moderator: false,
-    args: false,
-    userPermissions: [],
-    botPermissions: [],
-    subcommands: []
 };

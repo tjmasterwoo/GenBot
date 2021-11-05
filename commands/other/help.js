@@ -5,7 +5,7 @@ module.exports.run = (client, message, args) => {
     const embed = new MessageEmbed()
       .setColor(`${client.config.colors.Default}`)
       .addField(`${client.user.username}\'s Help Page`, `\nFor more information on a Specific command, run \`${client.config.PREFIX}help [command name | alias]\`\n**[Invite](${client.config.links.HandlerInvite})・[Website](${client.config.links.website})**`)
-      .setFooter(`Total Commands・${client.commands.size - 1}・https://github.com/Rdimo/GenBot`, `${client.user.displayAvatarURL()}`);
+      .setFooter(`Total Commands・${client.commands.size - 1}`, `${client.user.displayAvatarURL()}`);
       let twitchCmds = '';
       let NitroCmds = '';
       let generatorCmds = '';
@@ -47,10 +47,4 @@ module.exports.help = {
   cooldown: 7,
   usage: '[command_name]',
   example: ["help", "help ping"],
-  isUserAdmin: false,
-  moderator: false,
-  args: false,
-  userPermissions: [],
-  botPermissions: [],
-  subcommands: []
 };
