@@ -37,14 +37,13 @@ module.exports = {
       Twitch: '<:Twitch:853376736695156757>', //Twitch emoji for !help embed
       Other: '<:Other:853347989699166208>', //Other emoji for !help embed
       Nitro: '<a:Booster:853683721734193182>', //Nitro emoji for !help embed
-
     },
 
-    Token:{
+    Token: {
       Discord: 'Your_discord_bot_token',
     },
 
-    blacklistedUsers:{
+    blacklistedUsers: {
       ID: ['ID', 'ID2', 'ID3'] //Blacklist any users from the bot by putting their Id's in here
     }                          //Just copy the pattern if you want to blacklist more people
-  }
+}

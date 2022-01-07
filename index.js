@@ -8,13 +8,16 @@ const client = new Client({
     partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
     fetchAllMembers: true
 });
-
 ["commands", "cooldowns"].forEach(x => client[x] = new Collection());
-loadCommands(client);
-loadEvents(client)
-membercounter(client)
 
 client.config = require("./config")
+client.login(client.config.Token.Discord);
+
+loadCommands(client);
+loadEvents(client)
+client.once(("ready"), () => {
+    membercounter(client)
+})
 
 process.on('uncaughtException', (error) => {
     console.warn(error);
@@ -35,5 +38,3 @@ TextChannel.prototype.sendSuccessMessage = function (content, file) {
 TextChannel.prototype.sendErrorMessage = function (content, file) {
     return this.send(`${client.config.emojis.error} ${content}`, file);
 };
-
-client.login(client.config.Token.Discord); 
